@@ -1,16 +1,20 @@
 
 import './App.css'
-import Navbar from './components/Navbar'
+import Header from './components/Header'
 import Footer from './components/Footer'
-
+import Home from './pages/Home'
+import Papers from './pages/Papers'
+import {Routes , Route} from 'react-router-dom'
 function App() {
 
   return (
     <>
     {/* Navbar Component */}
-    <Navbar />
-      <h1>Hello World</h1>
-
+    <Header />
+    <Routes>
+      <Route path='/' element={ <Home /> } />
+      <Route path='/papers' element={ <Papers /> } />
+    </Routes>
       {/* Footer component */}
       <Footer />
     </>
