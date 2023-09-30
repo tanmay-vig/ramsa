@@ -9,7 +9,8 @@ export default function Header() {
     <>
       <Navbar expand="lg" className="">
       <Container>
-        <Navbar.Brand href="/">RAMSA</Navbar.Brand>
+        <Navbar.Brand href="/">
+          <b>RAMSA</b></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

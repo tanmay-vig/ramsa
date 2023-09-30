@@ -1,10 +1,10 @@
-import './css/contact.css'
+import './css/style.css'
 export default function Contact() {
     return (
         <>
             <div className="my-4">
                 <h3 className="text-center">Contact Us</h3>
-                <div className="d-flex flex-lg-column mx-5 p-5">
+                <div className="d-flex flex-lg-column justify-content-center p-4">
                     {/* Contact Info here */}
                     <div className="d-flex flex-column">
                         <div className='red-head'>Jaypee Institute of Information Technology</div>
