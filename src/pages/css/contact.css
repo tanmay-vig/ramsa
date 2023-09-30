@@ -1,0 +1,13 @@
+.red-head{
+    color: #A93226;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+hr{
+    width: 50%;
+}
+@media (max-width: 1000px) {
+    .red-head{
+        font-size: 1.0rem;
+    }
+}
