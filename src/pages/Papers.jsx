@@ -2,7 +2,7 @@
 export default function Papers() {
   return (
     <div>
-      Papers
+     Call for Papers To be uploaded...
     </div>
   )
 }
