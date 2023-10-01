@@ -7,7 +7,7 @@ import './Header.css'
 export default function Header() {
   return (
     <>
-      <Navbar expand="lg" className="">
+      <Navbar expand="lg" className="bg-body-tertiary" sticky='top'>
       <Container>
         <Navbar.Brand href="/">
           <b>RAMSA</b></Navbar.Brand>
