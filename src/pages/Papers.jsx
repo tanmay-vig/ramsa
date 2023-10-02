@@ -1,8 +1,8 @@
-
 export default function Papers() {
-  return (
-    <div>
-     Call for Papers To be uploaded...
-    </div>
-  )
+    return (
+        <>
+            <h2 className="text-center my-3">Call For Papers</h2>
+            <div className="text-center">To be uploaded soon</div> <br />
+        </>
+    );
 }

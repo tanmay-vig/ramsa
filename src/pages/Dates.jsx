@@ -1,11 +1,8 @@
-import {Container} from 'react-bootstrap'
 export default function Dates() {
-  return (
-    <div>
-        <Container>
-Dates
-      To be uploaded soon........
-        </Container>
-    </div>
-  )
+    return (
+        <>
+            <h2 className="text-center my-2">Important Dates</h2>
+            <div className="text-center">To be uploaded soon.....</div>
+        </>
+    );
 }

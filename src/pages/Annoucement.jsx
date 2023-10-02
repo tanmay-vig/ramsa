@@ -1,8 +1,9 @@
 
 export default function Annoucement() {
   return (
-    <div>
-      Annoucements To be uploaded .......
-    </div>
+    <>
+    <h2 className="text-center my-3">Annoucements</h2>
+       <div className="text-center">To be uploaded .......</div>
+    </>
   )
 }
