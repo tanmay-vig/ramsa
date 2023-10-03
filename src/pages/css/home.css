@@ -1,0 +1,49 @@
+.texture-background{
+    background: url(/ramsa/src/img/background.jpg);
+    width: 100%;
+    height: max-content;
+}
+.aligner{
+    margin: 10px 20px;
+    padding: 40px;
+}
+
+.b-30{
+    flex-basis: 20%;
+    margin: auto;
+    padding: auto;
+
+}
+.b-70{
+    flex-basis: 70%;
+    padding-left: 30px;
+    border-left: 4px solid black;
+}
+h1{
+    font-size: 35px;
+}
+.jiit-logo{
+    width: 150px;
+    height: 150px;
+}
+h3 , h4{
+    font-size: 25px;
+}
+@media (max-width:1000px) {
+    h1{
+        font-size: 1.1rem;
+    }
+    .jiit-logo{
+        height: 100px;
+        width: 100px;
+    }
+    .aligner{
+        padding: 0px;
+    }
+    .texture-background{
+        height: max-content;
+    }
+    .b-70{
+        padding-left: 5px;
+    }
+}
