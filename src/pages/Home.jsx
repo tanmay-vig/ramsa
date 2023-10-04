@@ -15,7 +15,7 @@ export default function Home() {
                     <div className=" mx-3 b-70">
                         <h3>
                             {" "}
-                            <b>7th International Conference</b> on
+                            <b>7<sup>th</sup> International Conference on </b>
                         </h3>{" "}
                         <h1 className="text-danger">
                             Recent Advances in Mathematical Sciences and its
