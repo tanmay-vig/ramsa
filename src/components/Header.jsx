@@ -16,8 +16,8 @@ export default function Header() {
                     <Navbar.Brand href="/" className="text-white">
                         <b>RAMSA</b>
                     </Navbar.Brand>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                    <Navbar.Collapse id="basic-navbar-nav">
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" className="bg-white" />
+                    <Navbar.Collapse id="basic-navbar-nav" >
                         <Nav className="me-auto">
                             <Nav.Link eventKey="1">
                                 <Link to="/about" className="l">
