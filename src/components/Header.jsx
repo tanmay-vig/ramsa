@@ -6,18 +6,16 @@ import "./Header.css";
 export default function Header() {
     return (
         <>
-            <Navbar
-                collapseOnSelect
-                expand="lg"
-                className=""
-                sticky="top"
-            >
+            <Navbar collapseOnSelect expand="lg" sticky="top">
                 <Container>
                     <Navbar.Brand href="/" className="text-white">
                         <b>RAMSA</b>
                     </Navbar.Brand>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" className="bg-white" />
-                    <Navbar.Collapse id="basic-navbar-nav" >
+                    <Navbar.Toggle
+                        aria-controls="basic-navbar-nav"
+                        className="bg-white"
+                    />
+                    <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
                             <Nav.Link eventKey="1">
                                 <Link to="/about" className="l">
