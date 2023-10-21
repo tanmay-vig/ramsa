@@ -50,7 +50,7 @@ export default function About() {
             </div>
 
             <div className="mx-5">
-                <div className="red-head ">RAMSA 2022</div>
+                <div className="red-head text-center">RAMSA 2022</div>
                 <hr />
                 <div>
                     The 6th International conference on Recent Advances in
