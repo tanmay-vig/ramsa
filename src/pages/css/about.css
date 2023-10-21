@@ -1,0 +1,17 @@
+.ramsa-2022-pics{
+    height: 300px;
+
+}
+.red-head{
+    color: #A93226;
+    font-weight: bolder;
+    font-size: 1.6rem;
+}
+
+@media (max-width : 1000px) {
+    .ramsa-2022-pics{
+        height: 200px;
+        width: 300px;
+        margin: 5px 0px;
+    }   
+}
