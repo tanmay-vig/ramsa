@@ -14,6 +14,7 @@ import Registration from './pages/Registration'
 import Annoucement from './pages/Annoucement'
 import Dates from './pages/Dates'
 import Contact from './pages/Contact'
+import Previous from './pages/Previous'
 import {Routes , Route} from 'react-router-dom'
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
       <Route path='/annoucements' element={ <Annoucement /> } />
       <Route path='/importantdates' element={ <Dates /> } />
       <Route path='/contact' element={ <Contact /> } />
+      <Route path='/previous' element={ <Previous /> } />
     </Routes>
       {/* Footer component */}
       <Footer />
