@@ -3,7 +3,29 @@
     font-weight: bolder;
     font-size: 1.5rem;
 }
+.center{
+    text-align: center;
+}
+.text-section{
+    
+    padding: 5px 20px;
+}
+section{
+    margin: 1rem 2rem;
+}
 img{
     height: 300px;
     width: 400px;
+    margin: 0px 10px;
+}
+@media (max-width : 1000px)
+{
+    .text-section{
+        padding: 2px 5px;
+    }
+    img{
+        height: 200px;
+        width: 300px;
+        margin: 5px 10px;
+    }
 }
