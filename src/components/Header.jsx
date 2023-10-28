@@ -46,10 +46,16 @@ export default function Header() {
                                     Call For Papers
                                 </Link>
                             </div>
+                            
                             <div className="mx-2">
                                 <Link to="/registration" className="l">
                                     Registration
                                 </Link>
+                            </div>
+                            <div className="mx-2">
+                                <a href="https://sites.google.com/view/ramsa-24-important-dates/home" className="l">
+                                    Important Dates
+                                </a>
                             </div>
                             <div className="mx-2">
                                 <a href="https://sites.google.com/view/ramsa-24-updates/home" className="l" >
@@ -61,6 +67,7 @@ export default function Header() {
                                     Contact Us
                                 </Link>
                             </div>
+                            
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
