@@ -34,12 +34,12 @@ export default function Header() {
                             </Nav.Link>
                             <Nav.Link eventKey="4">
                                 <Link to="/sessions" className="l">
-                                    Sessions
+                                    Call For Sessions
                                 </Link>
                             </Nav.Link>
                             <Nav.Link eventKey="5">
                                 <Link to="/papers" className="l">
-                                    Papers
+                                    Call For Papers
                                 </Link>
                             </Nav.Link>
                             <Nav.Link eventKey="6">
@@ -47,17 +47,8 @@ export default function Header() {
                                     Registration
                                 </Link>
                             </Nav.Link>
+                            
                             <Nav.Link eventKey="7">
-                                <Link to="/annoucements" className="l">
-                                    Annoucements
-                                </Link>
-                            </Nav.Link>
-                            <Nav.Link eventKey="8">
-                                <Link to="/importantdates" className="l">
-                                    Important Dates
-                                </Link>
-                            </Nav.Link>
-                            <Nav.Link eventKey="9">
                                 <Link to="/contact" className="l">
                                     Contact Us
                                 </Link>
