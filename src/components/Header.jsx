@@ -29,7 +29,7 @@ export default function Header() {
                             </Nav.Link>
                             <Nav.Link eventKey="3">
                                 <Link to="/resourceperson" className="l">
-                                    Resource Person
+                                    Speakers
                                 </Link>
                             </Nav.Link>
                             <Nav.Link eventKey="4">
