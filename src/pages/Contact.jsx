@@ -19,10 +19,10 @@ export default function Contact() {
                         <div>
                           <b>
                           Prof. Alka Tripathi
-                          </b> 
+                          </b> <br />
                              (Conference Chair) <br />
                             Head, Department of Mathematics
-                        </div>
+                        </div> <br />
                         <div className="d-flex">
                             <div>
                               <b>
