@@ -12,7 +12,7 @@ export default function About() {
                     </div>
                     <hr />
                      <br />
-                    <div className="text-center">
+                    <div className="text-left">
                         The Jaypee Institute of Information Technology (JIIT), a
                         deemed-to-be University under the UGC Act 1956, stands
                         as the gracious host for the 7th International
@@ -28,7 +28,7 @@ export default function About() {
                         programs in Engineering, Sciences, and Management.
                     </div>
                      <br />
-                    <div className="text-center">
+                    <div className="text-left">
                         Notably, the Department of Mathematics, an integral part
                         of JIIT, plays a vital role in advancing scientific
                         research, especially in mathematics and its
