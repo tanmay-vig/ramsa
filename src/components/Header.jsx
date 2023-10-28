@@ -45,7 +45,7 @@ export default function Header() {
                                 onClick={() => setExpanded(false)}
                             >
                                 <a
-                                    href="https://sites.google.com/view/ramsa-2024/speakers"
+                                    href="https://sites.google.com/view/ramsa-24-speakers/home"
                                     className="l"
                                 >
                                     Speakers
