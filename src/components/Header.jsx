@@ -16,7 +16,7 @@ export default function Header() {
                         className="bg-white"
                     />
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="me-auto">
+                        <Nav className="">
                             <Nav.Link eventKey="1">
                                 <Link to="/about" className="l">
                                     About us
@@ -27,11 +27,11 @@ export default function Header() {
                                     Organizers
                                 </Link>
                             </Nav.Link>
-                            <Nav.Link eventKey="3">
-                                <Link to="/resourceperson" className="l">
+                            <div className="m-auto">
+                                <a href="https://sites.google.com/view/ramsa-2024/speakers" className="l">
                                     Speakers
-                                </Link>
-                            </Nav.Link>
+                                </a>
+                            </div>
                             <Nav.Link eventKey="4">
                                 <Link to="/sessions" className="l">
                                     Call For Sessions

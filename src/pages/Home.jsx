@@ -1,5 +1,6 @@
 import pic1 from "../img/jiit_logo.png";
 import "./css/home.css";
+
 export default function Home() {
     return (
         <>
@@ -36,6 +37,8 @@ export default function Home() {
                 </div>
             </div>
             {/* Slider section */}
+            
+            
         </>
     );
 }
