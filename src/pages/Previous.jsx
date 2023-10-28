@@ -25,7 +25,7 @@ export default function Previous() {
             <section>
                 <div>
                     <div className="red-head center">RAMSA 2016</div>
-                    <div className="center text-section">
+                    <div className="text-section">
                         First International Conference on Recent Advances in
                         Mathematical Sciences and its Applications (RAMSA-2016)
                         was organized on December 08-10, 2016 at Jaypee
@@ -55,7 +55,7 @@ export default function Previous() {
                 <br />
                 <div>
                     <div className="red-head center">RAMSA 2017</div>
-                    <div className="text-section center">
+                    <div className="text-section">
                         2<sup>nd</sup> International Conference on Recent
                         Advances in Mathematical Sciences and its Applications
                         (RAMSA-2017) was organized on December 12-14, 2017 at
@@ -84,7 +84,7 @@ export default function Previous() {
                 <br />
                 <div>
                     <div className="red-head center">RAMSA 2019</div>
-                    <div className="text-section center">
+                    <div className="text-section">
                         Third International Conference on Recent Advances in
                         Mathematical Sciences and its Applications (RAMSA-2019)
                         was organized on Jan 17-19, 2019 at Jaypee Institute of
@@ -113,7 +113,7 @@ export default function Previous() {
                 </div> <br />
                 <div>
                     <div className="red-head center">RAMSA 2020</div>
-                    <div className="text-section center">
+                    <div className="text-section">
                         4<sup>th</sup> International conference on Recent
                         Advances in Mathematical Sciences and its Applications
                         (RAMSA-2020) was organized on Jan 09-11, 2020 at Jaypee
@@ -144,7 +144,7 @@ export default function Previous() {
                 </div> <br />
                 <div>
                     <div className="red-head center">RAMSA 2021</div>
-                    <div className="text-section center">
+                    <div className="text-section">
                         5<sup>th</sup> International conference on Recent
                         Advances in Mathematical Sciences and its Applications
                         (RAMSA-2020) was organized on December 02-04, 2021 at
@@ -176,7 +176,7 @@ export default function Previous() {
                 </div> <br />
                 <div>
                     <div className="red-head center">RAMSA 2022</div>
-                    <div className="text-section center">
+                    <div className="text-section">
                         The 6<sup>th</sup> International conference on Recent
                         Advances in Mathematical Sciences and its Applications
                         (RAMSA-2022) took place from December 08 to December 10,

@@ -26,12 +26,12 @@ export default function Contact() {
                         <div className="d-flex">
                             <div>
                               <b>
-                              Dr. Yogesh Gupta
-                              </b> (Convener) <br />
+                              Dr. Pankaj K. Srivastava
+                              </b> <br /> (Convener) <br />
                                 Department of Mathematics
                             </div>
                             <div className="mx-5">
-                              <b>Dr. Lakhveer Kaur</b>
+                              <b>Dr. Dinesh C.S. Bisht</b> <br />
                                  (Convener) <br />
                                 Department of Mathematics
                             </div>
@@ -39,7 +39,7 @@ export default function Contact() {
                         <br />
                         <div>
                             Mobile: +91 9953891505, +91 9899273989 <br />
-                            <b>Email: ramsaconference.jiit@gmail.com</b>
+                            <b>Email: ramsa.conference2024@gmail.com</b>
                         </div>
                         <hr />
                         <div className='red-head'>How to reach</div>
