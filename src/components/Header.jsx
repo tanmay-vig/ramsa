@@ -17,42 +17,50 @@ export default function Header() {
                     />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="">
-                            <Nav.Link eventKey="1">
+                            <div className="mx-2">
                                 <Link to="/about" className="l">
                                     About us
                                 </Link>
-                            </Nav.Link>
-                            <Nav.Link eventKey="2">
+                            </div>
+                            <div className="mx-2">
                                 <Link to="/organizers" className="l">
                                     Organizers
                                 </Link>
-                            </Nav.Link>
-                            <div className="m-auto">
-                                <a href="https://sites.google.com/view/ramsa-2024/speakers" className="l">
+                            </div>
+
+                            <div className="mx-2">
+                                <a
+                                    href="https://sites.google.com/view/ramsa-2024/speakers"
+                                    className="l"
+                                >
                                     Speakers
                                 </a>
                             </div>
-                            <Nav.Link eventKey="4">
+                            <div className="mx-2">
                                 <Link to="/sessions" className="l">
                                     Call For Sessions
                                 </Link>
-                            </Nav.Link>
-                            <Nav.Link eventKey="5">
+                            </div>
+                            <div className="mx-2">
                                 <Link to="/papers" className="l">
                                     Call For Papers
                                 </Link>
-                            </Nav.Link>
-                            <Nav.Link eventKey="6">
+                            </div>
+                            <div className="mx-2">
                                 <Link to="/registration" className="l">
                                     Registration
                                 </Link>
-                            </Nav.Link>
-                            
-                            <Nav.Link eventKey="7">
+                            </div>
+                            <div className="mx-2">
+                                <a href="https://sites.google.com/view/ramsa-24-updates/home" className="l" >
+                                    Updates
+                                </a>
+                            </div>
+                            <div className="mx-2">
                                 <Link to="/contact" className="l">
                                     Contact Us
                                 </Link>
-                            </Nav.Link>
+                            </div>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
