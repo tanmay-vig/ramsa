@@ -46,7 +46,7 @@ export default function About() {
                     </div>
                 </div>
             </div>
-            <div className="row">
+            <div className="d-flex justify-content-center">
                 <div className="col-lg-6 col-sm-12">
                     <div className="d-flex justify-content-center w-100 mt-5">
                         <Link to="/previous">
@@ -54,15 +54,6 @@ export default function About() {
                                 Previous editions of RAMSA{" "}
                             </button>
                         </Link>
-                    </div>
-                </div>
-                <div className="col-lg-6 col-sm-12">
-                    <div className="d-flex justify-content-center w-100 mt-5">
-                        <a href="" download="">
-                            <button className="btn btn-success">
-                                Download Brochure for RAMSA 2024
-                            </button>
-                        </a>
                     </div>
                 </div>
             </div>
