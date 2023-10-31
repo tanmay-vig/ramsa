@@ -79,7 +79,7 @@ export default function Contact() {
                     {/* Map here */}
                 </div>
                 <div className="mx-4">
-                    <h4>Designed & Developed by:</h4>
+                    <h4 className="red-head" >Website Designed & Developed by:</h4>
                     <ol>
                         <li>Tanmay Vig :
                         <a href="mailto:cooltanmayvig@gmail.com" className="text-decoration-none">
