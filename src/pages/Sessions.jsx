@@ -48,7 +48,7 @@ export default function Sessions() {
                             exceeding 100 words).
                         </li>
                     </ul>
-                    The deadline for proposal submission is November 20, 2023.
+                    The deadline for proposal submission is November 30, 2023.
                     Please send your proposals to
                     ramsa.conference2024@gmail.com.
                 </div>
