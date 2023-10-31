@@ -1,12 +1,13 @@
 import Table from "react-bootstrap/Table";
 import "./css/registration.css";
+import qr from "../img/qr.png";
 export default function Registration() {
     return (
-        <>
-            <h2 className="text-center my-3">Registrations</h2>
+        <section>
+            <h2 className="text-center my-3 red text-bold">Registrations</h2>
             {/* Registration Charges */}
             <h3 className="red">Registration Charges :</h3>
-            <Table bordered hover responsive className="table-setting">
+            <Table bordered hover responsive>
                 <thead>
                     <tr>
                         <th rowSpan={2}>Category</th>
@@ -23,63 +24,83 @@ export default function Registration() {
                         <td rowSpan={2}>Academicians/Scientists</td>
                         <td>Offline</td>
                         <td>$ 250</td>
-                        <td>5000</td>
+                        <td>₹ 5000/- </td>
                     </tr>
                     <tr>
                         <td>Online</td>
                         <td>$ 150</td>
-                        <td>3000</td>
+                        <td>₹ 3000/- </td>
                     </tr>
                     <tr>
                         <td rowSpan={2}>Research Scholars</td>
                         <td>Offline</td>
                         <td>$ 150</td>
-                        <td>3000</td>
+                        <td>₹ 3000/- </td>
                     </tr>
                     <tr>
                         <td>Online</td>
                         <td>$ 75</td>
-                        <td>1500</td>
+                        <td>₹ 1500/- </td>
                     </tr>
                     <tr>
                         <td rowSpan={2}>JIIT Students/JIIT Alumni</td>
                         <td>Offline</td>
                         <td>$ 100</td>
-                        <td>2000</td>
+                        <td>₹ 2000/- </td>
                     </tr>
                     <tr>
                         <td>Online</td>
                         <td>$ 75</td>
-                        <td>1500</td>
+                        <td>₹ 1500/- </td>
                     </tr>
                     <tr>
                         <td rowSpan={2}>Attendee</td>
                         <td>Offline</td>
                         <td>$ 100</td>
-                        <td>2000</td>
+                        <td>₹ 2000/- </td>
                     </tr>
                     <tr>
                         <td>Online</td>
                         <td>$ 50</td>
-                        <td>1000</td>
+                        <td>₹ 1000/- </td>
                     </tr>
                     <tr>
                         <td>Extra Per Article Submission</td>
                         <td>Offline/Online</td>
                         <td>$ 50</td>
-                        <td>1000</td>
+                        <td>₹ 1000/- </td>
                     </tr>
                 </tbody>
             </Table>
+            {/* Payment Mode */}
+            <div>
+                <h3 className="red">Payment Mode: </h3>
+                <h5 className="red">Indian Participant: </h5>
+                The participant/author can pay the registration fee using the
+                following link or QR code:
+                <br /> <br />
+                <div>
+                    <img src={qr} alt="Qr" className="qr" />
+                </div>{" "}
+                <br />
+                <a
+                    href="https://payments.cashfree.com/forms/RAMSA"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <button className="btn btn-success">Payment Link</button>
+                </a>{" "}
+                <br /> <br />
+            </div>
             {/* Wire Transfer */}
-            <h3 className="red">Participants from Outside India:</h3>
+            <h5 className="red">Participants from Outside India:</h5>
             <div>
                 <span className="red">Wire Transfer : </span> The
                 participant/author can pay the registration fee through wire
                 transfer. The wire transfer may be made to the following bank:
             </div>{" "}
             <br />
-            <Table bordered hover responsive className="table-setting">
+            <Table bordered hover responsive>
                 <tbody>
                     <tr>
                         <td>1</td>
@@ -124,7 +145,9 @@ export default function Registration() {
             </Table>
             {/* Note */}
             <div>
-                <div className="red">Note:</div>
+                <div className="red">
+                    <b>Note:</b>
+                </div>
                 <ol>
                     <li>
                         {" "}
@@ -232,8 +255,10 @@ export default function Registration() {
                 </ul>{" "}
                 <br />
                 For any questions or assistance, contact us at:
-                ramsa.conference2024@gmail.com
+                <span className="text-info">
+                    <b> ramsa.conference2024@gmail.com</b>
+                </span>
             </div>
-        </>
+        </section>
     );
 }

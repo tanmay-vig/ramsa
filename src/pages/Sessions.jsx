@@ -66,7 +66,8 @@ export default function Sessions() {
                     </li>
                     <li>
                         For any further clarifications or queries, please do not
-                        hesitate to contact at ramsa.conference2024@gmail.com .
+                        hesitate to contact at <span className="text-info">
+                            <b>ramsa.conference2024@gmail.com</b></span>
                     </li>
                 </ul>
                 <a

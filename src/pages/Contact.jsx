@@ -1,4 +1,4 @@
-import './css/style.css'
+import "./css/style.css";
 export default function Contact() {
     return (
         <>
@@ -7,32 +7,35 @@ export default function Contact() {
                 <div className="d-flex flex-lg-column justify-content-center p-4">
                     {/* Contact Info here */}
                     <div className="d-flex flex-column">
-                        <div className='red-head'>Jaypee Institute of Information Technology</div>
-                        <div> <b>
-
-                            A-10, Sector - 62, Noida, Uttar Pradesh, India -
-                            201309
-                        </b>
+                        <div className="red-head">
+                            Jaypee Institute of Information Technology
+                        </div>
+                        <div>
+                            {" "}
+                            <b>
+                                A-10, Sector - 62, Noida, Uttar Pradesh, India -
+                                201309
+                            </b>
                         </div>
                         <hr />
-                        <div className='red-head'>Address your communications to</div>
+                        <div className="red-head">
+                            Address your communications to
+                        </div>
                         <div>
-                          <b>
-                          Prof. Alka Tripathi
-                          </b> <br />
-                             (Conference Chair) <br />
+                            <b>Prof. Alka Tripathi</b> <br />
+                            (Conference Chair) <br />
                             Head, Department of Mathematics
-                        </div> <br />
+                        </div>{" "}
+                        <br />
                         <div className="d-flex">
                             <div>
-                              <b>
-                              Dr. Pankaj K. Srivastava
-                              </b> <br /> (Convener) <br />
+                                <b>Dr. Pankaj K. Srivastava</b> <br />{" "}
+                                (Convener) <br />
                                 Department of Mathematics
                             </div>
                             <div className="mx-5">
-                              <b>Dr. Dinesh C.S. Bisht</b> <br />
-                                 (Convener) <br />
+                                <b>Dr. Dinesh C.S. Bisht</b> <br />
+                                (Convener) <br />
                                 Department of Mathematics
                             </div>
                         </div>
@@ -42,30 +45,40 @@ export default function Contact() {
                             <b>Email: ramsa.conference2024@gmail.com</b>
                         </div>
                         <hr />
-                        <div className='red-head'>How to reach</div>
+                        <div className="red-head">How to reach</div>
                         <div>
-                          <b>Metro</b></div>
+                            <b>Metro</b>
+                        </div>
                         <div className="overflow-auto">
                             The nearest metro station is NOIDA ELECTRONIC CITY.
                             The institute is situated at a walking distance from
                             the metro station.
                         </div>
                         <div>
-                          <b>Railway</b></div>
+                            <b>Railway</b>
+                        </div>
                         <div>
                             Noida is well connected to the New Delhi, Old Delhi
                             and Ghaziabad railway stations by bus. Cabs can be
                             hired just outside the railway stations.
                         </div>
                         <div>
-                          <b>Airport</b></div>
+                            <b>Airport</b>
+                        </div>
                         <div>
                             Cabs can be hired just outside the airport terminal
                             for JIIT Sector‐62, Noida.
                         </div>
                     </div>
                     {/* Map here */}
-                    
+                </div>
+                <div className="mx-4">
+
+                <h4>Designed & Developed by:</h4>
+                <ol>
+                    <li>Tanmay Vig : cooltanmayvig@gmail.com</li>
+                    <li>Aryesh Srivastava : </li>
+                </ol>
                 </div>
             </div>
         </>
