@@ -7,7 +7,7 @@ export default function Registration() {
             <h2 className="text-center my-3 red text-bold">Registrations</h2>
             {/* Registration Charges */}
             <h3 className="red">Registration Charges :</h3>
-            <Table bordered hover responsive>
+            <Table bordered responsive>
                 <thead>
                     <tr>
                         <th rowSpan={2}>Category</th>
@@ -100,7 +100,7 @@ export default function Registration() {
                 transfer. The wire transfer may be made to the following bank:
             </div>{" "}
             <br />
-            <Table bordered hover responsive>
+            <Table bordered responsive>
                 <tbody>
                     <tr>
                         <td>1</td>
