@@ -18,6 +18,58 @@ export default function Registration() {
                         <th>India</th>
                     </tr>
                 </thead>
+                <tbody>
+                    <tr>
+                        <td rowSpan={2}>Academicians/Scientists</td>
+                        <td>Offline</td>
+                        <td>$ 250</td>
+                        <td>5000</td>
+                    </tr>
+                    <tr>
+                        <td>Online</td>
+                        <td>$ 150</td>
+                        <td>3000</td>
+                    </tr>
+                    <tr>
+                        <td rowSpan={2}>Research Scholars</td>
+                        <td>Offline</td>
+                        <td>$ 150</td>
+                        <td>3000</td>
+                    </tr>
+                    <tr>
+                        <td>Online</td>
+                        <td>$ 75</td>
+                        <td>1500</td>
+                    </tr>
+                    <tr>
+                        <td rowSpan={2}>JIIT Students/JIIT Alumni</td>
+                        <td>Offline</td>
+                        <td>$ 100</td>
+                        <td>2000</td>
+                    </tr>
+                    <tr>
+                        <td>Online</td>
+                        <td>$ 75</td>
+                        <td>1500</td>
+                    </tr>
+                    <tr>
+                        <td rowSpan={2}>Attendee</td>
+                        <td>Offline</td>
+                        <td>$ 100</td>
+                        <td>2000</td>
+                    </tr>
+                    <tr>
+                        <td>Online</td>
+                        <td>$ 50</td>
+                        <td>1000</td>
+                    </tr>
+                    <tr>
+                        <td>Extra Per Article Submission</td>
+                        <td>Offline/Online</td>
+                        <td>$ 50</td>
+                        <td>1000</td>
+                    </tr>
+                </tbody>
             </Table>
             {/* Wire Transfer */}
             <h3 className="red">Participants from Outside India:</h3>
