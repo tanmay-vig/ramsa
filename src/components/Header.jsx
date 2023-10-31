@@ -46,6 +46,8 @@ export default function Header() {
                             >
                                 <a
                                     href="https://sites.google.com/view/ramsa-24-speakers/home"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     className="l"
                                 >
                                     Speakers
@@ -82,6 +84,8 @@ export default function Header() {
                             >
                                 <a
                                     href="https://sites.google.com/view/ramsa-24-important-dates/home"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     className="l"
                                 >
                                     Important Dates
@@ -93,6 +97,8 @@ export default function Header() {
                             >
                                 <a
                                     href="https://sites.google.com/view/ramsa-24-updates/home"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     className="l"
                                 >
                                     Updates

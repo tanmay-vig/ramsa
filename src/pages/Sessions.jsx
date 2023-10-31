@@ -69,9 +69,11 @@ export default function Sessions() {
                         <li>
                             For any further clarifications or queries, please do
                             not hesitate to contact at{" "}
-                            <span className="text-info">
-                                <b>ramsa.conference2024@gmail.com</b>
+                            <a href="mailto:ramsa.conference2024@gmail.com" className="text-decoration-none">
+                            <span className=" text-info">
+                                <b> ramsa.conference2024@gmail.com</b>
                             </span>
+                            </a>
                         </li>
                     </ul>
                     <a

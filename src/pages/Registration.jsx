@@ -255,9 +255,14 @@ export default function Registration() {
                 </ul>{" "}
                 <br />
                 For any questions or assistance, contact us at:
-                <span className="text-info">
-                    <b> ramsa.conference2024@gmail.com</b>
-                </span>
+                <a
+                    href="mailto:ramsa.conference2024@gmail.com"
+                    className="text-decoration-none"
+                >
+                    <span className=" text-info">
+                        <b> ramsa.conference2024@gmail.com</b>
+                    </span>
+                </a>
             </div>
         </section>
     );
