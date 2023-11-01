@@ -1,4 +1,5 @@
 import "./css/style.css";
+import Map from './Map'
 export default function Contact() {
     return (
         <>
@@ -77,6 +78,7 @@ export default function Contact() {
                         </div>
                     </div>
                     {/* Map here */}
+                    <Map />
                 </div>
                 <div className="mx-4">
                     <h4 className="red-head" >Website Designed & Developed by:</h4>
