@@ -13,8 +13,17 @@
   align-items: center;
 }
 
+iframe{
+  width: 600px;
+  height: 450px;
+}
+
 @media screen and (max-width: 500px){
   .style{
     flex-direction: column;
+  }
+  iframe{
+    width: 250px;
+    height: 200px;
   }
 }

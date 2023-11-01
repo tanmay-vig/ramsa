@@ -5,7 +5,7 @@ export default function Contact() {
         <>
             <div className="my-4">
                 <h3 className="text-center">Contact Us</h3>
-                <div className="d-flex flex-lg-column justify-content-center p-4">
+                <div className="d-flex flex-lg-column justify-content-center p-4 flex-wrap">
                     {/* Contact Info here */}
                     <div className="d-flex flex-column">
                         <div className="red-head">
