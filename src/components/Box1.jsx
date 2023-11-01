@@ -1,5 +1,4 @@
-
-import '../pages/css/Box2.css'
+import '../pages/css/Box2.css';
 
 function Box1(props) {
   return (
