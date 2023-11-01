@@ -48,7 +48,7 @@ export default function About() {
             </div>
             <div className="d-flex justify-content-center">
                 <div className="col-lg-6 col-sm-12">
-                    <div className="d-flex justify-content-center w-100 mt-5">
+                    <div className="d-flex justify-content-center w-100 mt-3">
                         <Link to="/previous">
                             <button className="btn btn-success">
                                 Previous editions of RAMSA{" "}
