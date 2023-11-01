@@ -15,6 +15,7 @@ import Registration from './pages/Registration'
 import Contact from './pages/Contact'
 import Previous from './pages/Previous'
 import {Routes , Route} from 'react-router-dom'
+
 function App() {
 
   return (

@@ -1,6 +1,6 @@
 import pic1 from "../img/jiit_logo.png";
 import "./css/home.css";
-
+import Slider from "../components/Slider";
 export default function Home() {
     return (
         <>
@@ -9,14 +9,16 @@ export default function Home() {
                 <br />
                 <div className="d-flex aligner ">
                     {/* For logo */}
-                    <div className="  b-30"> 
+                    <div className="  b-30">
                         <img src={pic1} alt="jiit" className="jiit-logo" />
                     </div>
                     {/* For Info */}
                     <div className=" mx-3 b-70">
                         <h3>
                             {" "}
-                            <b>7<sup>th</sup> International Conference on </b>
+                            <b>
+                                7<sup>th</sup> International Conference on{" "}
+                            </b>
                         </h3>{" "}
                         <h1 className="text-danger">
                             Recent Advances in Mathematical Sciences and its
@@ -32,13 +34,16 @@ export default function Home() {
                                 (JIIT Noida, U.P.)
                             </b>
                         </h3>
-                        <h4 className="text-danger">February 29 - March 02, 2024 (Hybrid Mode)</h4>
+                        <h4 className="text-danger">
+                            February 29 - March 02, 2024 (Hybrid Mode)
+                        </h4>
                     </div>
                 </div>
             </div>
             {/* Slider section */}
-            
-            
+            <div className="d-none d-lg-block">
+                <Slider />
+            </div>
         </>
     );
 }
