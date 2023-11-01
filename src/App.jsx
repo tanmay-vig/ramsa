@@ -36,6 +36,8 @@ function App() {
       <Route path='/previous' element={ <Previous /> } />
     </Routes>
       {/* Footer component */}
+      <br />
+      <br />
       <Footer />
     </>
   )

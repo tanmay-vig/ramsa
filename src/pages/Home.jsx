@@ -1,6 +1,9 @@
 import pic1 from "../img/jiit_logo.png";
 import "./css/home.css";
-import Slider from "../components/Slider";
+import ImageSlider from '../components/ImageSlider';
+import ImageSliderAuto from '../components/ImageSliderAuto';
+import { ImageData } from '../json/JsonData';
+
 export default function Home() {
     return (
         <>
@@ -42,7 +45,8 @@ export default function Home() {
             </div>
             {/* Slider section */}
             <div className="d-none d-lg-block">
-                <Slider />
+                <ImageSlider ImageData={ImageData} /><br />
+                <ImageSliderAuto ImageData={ImageData} SlideInterValTime={3000} />
             </div>
         </>
     );
