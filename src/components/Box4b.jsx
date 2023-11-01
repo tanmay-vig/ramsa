@@ -1,5 +1,5 @@
-
-import '../pages/css/Box2.css'
+import React from 'react'
+import '../pages/Box2.css'
 
 function Box4b(props) {
   return (

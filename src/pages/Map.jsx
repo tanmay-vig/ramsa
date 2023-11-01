@@ -1,3 +1,4 @@
+import React from 'react'
 
 function Map() {
   return (
@@ -8,7 +9,7 @@ function Map() {
         style={{border:"0"}} 
         allowfullscreen="" 
         loading="lazy" 
-        referrerPolicy="no-referrer-when-downgrade"></iframe>
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   )
 }

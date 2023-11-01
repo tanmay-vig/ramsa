@@ -1,7 +1,7 @@
-
+import React from 'react';
 import Box4a from './Box4a';
 import Box4b from './Box4b';
-import '../pages/css/Box2.css'
+import '../pages/Box2.css'
 
 function Box4() {
     // const border = {
@@ -19,7 +19,7 @@ function Box4() {
     //     flexWrap: "wrap"
     //   }
   return (
-    <div className='border-4'>
+    <div>
         <Box4a name = "DEPARTMENTAL COMMITTEE"></Box4a>
         <div className='style4'>
             <div>
@@ -49,5 +49,5 @@ function Box4() {
     </div>
   )
 }
-
+// className='border-4'
 export default Box4

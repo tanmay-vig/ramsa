@@ -1,3 +1,4 @@
+import React from 'react'
 
 function Part2(props) {
     const style = {

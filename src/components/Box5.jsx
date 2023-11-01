@@ -1,10 +1,11 @@
-
+import React from 'react';
 import Box4a from './Box4a';
 import Box4b from './Box4b';
+import '../pages/Box2.css';
 
 function Box5() {
   return (
-    <div className='border-4'>
+    <div>
         <Box4a name = "CONFERENCE ADVISORY COMMITTEE"></Box4a>
         <div>
             <Box4b name1= "Prof. Vikas Saxena," position1="Director, JIIT"></Box4b>
@@ -24,5 +25,5 @@ function Box5() {
     </div>
   )
 }
-
+//className='border-4'
 export default Box5

@@ -1,8 +1,9 @@
+import React from 'react'
 
 function Box4a(props) {
   return (
     <div>
-        <h2 style={{color: "blue"}}>{props.name}</h2>
+        <h2 style={{color: "blue", textAlign: "center"}}>{props.name}</h2>
     </div>
   )
 }
