@@ -22,9 +22,9 @@ function Box4() {
     <div>
         <Box4a name = "DEPARTMENTAL COMMITTEE"></Box4a>
         <div className='style4'>
-            <div style={{marginRight:"70px"}}>
+            <div style={{marginRight:"100px"}}>
                 <Box4b name1= "Prof. Bhagwati Prasad Chamola," position1="Professor"></Box4b>
-                <Box4b name1= "Prof. Amit Srivastava," position1="Professor"></Box4b>
+{/*                 <Box4b name1= "Prof. Amit Srivastava," position1="Professor"></Box4b>
                 <Box4b name1= "Dr. Kamlesh Kumar Shukla," position1="Assistant Professor"></Box4b>
                 <Box4b name1= "Dr.  Neha Singhal," position1="Assistant Professor"></Box4b>
                 <Box4b name1= "Dr. Manish Kumar Bansal," position1="Assistant Professor"></Box4b>
@@ -32,19 +32,25 @@ function Box4() {
                 <Box4b name1= "Dr. Ram Surat Chauhan," position1="Assistant Professor"></Box4b>
                 <Box4b name1= "Dr. Gaurav Aggarwal," position1="Assistant Professor"></Box4b>
                 <Box4b name1= "Dr. Mukesh Kumar Nagar," position1="Assistant Professor"></Box4b>
-                <Box4b name1= "Dr. Shashank Goel," position1="Assistant Professor"></Box4b>
+                <Box4b name1= "Dr. Shashank Goel," position1="Assistant Professor"></Box4b> */}
             </div>
-            <div style={{marginLeft:"30px"}}>
+            <div >
                 <Box4b name1= "Prof. Lokendra Kumar," position1="Professor"></Box4b>
-                <Box4b name1= "Dr.  Lakhveer Kaur," position1="Associate Professor"></Box4b>
+{/*                 <Box4b name1= "Dr.  Lakhveer Kaur," position1="Associate Professor"></Box4b>
                 <Box4b name1= "Dr. Neha Ahlawat," position1="Assistant Professor"></Box4b>
                 <Box4b name1= "Dr. Mohd. Sarfaraz," position1="Assistant Professor"></Box4b>
                 <Box4b name1= "Dr. Shikha Pandey," position1="Assistant Professor"></Box4b>
                 <Box4b name1= "Dr. Nisha Shukla," position1="Assistant Professor"></Box4b>
                 <Box4b name1= "Dr. Aradhana Narang," position1="Assistant Professor"></Box4b>
                 <Box4b name1= "Dr. Ayushi Singh Sengar," position1="Assistant Professor"></Box4b>
-                <Box4b name1= "Dr. Shashankaditya Upadhyay," position1="Assistant Professor"></Box4b>
+                <Box4b name1= "Dr. Shashankaditya Upadhyay," position1="Assistant Professor"></Box4b> */}
             </div>
+<div style={{marginRight:"70px"}}>
+    <Box4b name1= "Prof. Amit Srivastava," position1="Professor"></Box4b>
+    </div>
+             <div style={{marginLeft:"30px"}}>
+                  <Box4b name1= "Dr.  Lakhveer Kaur," position1="Associate Professor"></Box4b>
+                 </div>
         </div>
     </div>
   )
