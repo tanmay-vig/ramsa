@@ -15,7 +15,7 @@ function Organizers() {
         <Box1 post = "PATRONS" name1= "Prof. S. C. Saxena," position1 = "Pro Chancellor, JIIT" name2 = "Prof. B. R. Mehta," position2 = "Vice Chancellor, JIIT"/>
       </div>
       <br /><br />
-      <Box2 post = "CONFERENCE CHAIR" name1= "Prof. Alka Tripathi," position1 = "Pro Chancellor, JIIT"/>
+      <Box2 post = "CONFERENCE CHAIR" name1= "Prof. Alka Tripathi," position1 = "Head, Department of Mathematics"/>
       <Box2 post = "CONVENERS" name1= "Dr. Pankaj K. Srivastava & Dr. Dinesh C. S. Bisht" position1 = "Associate Professor(s)"/>
       <br />
       <br />
