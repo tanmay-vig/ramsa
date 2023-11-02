@@ -22,7 +22,7 @@ function Box4() {
     <div>
         <Box4a name = "DEPARTMENTAL COMMITTEE"></Box4a>
         <div className='style4'>
-            <div>
+            <div style={{marginRight:"70px"}}>
                 <Box4b name1= "Prof. Bhagwati Prasad Chamola," position1="Professor"></Box4b>
                 <Box4b name1= "Prof. Amit Srivastava," position1="Professor"></Box4b>
                 <Box4b name1= "Dr. Kamlesh Kumar Shukla," position1="Assistant Professor"></Box4b>
@@ -36,7 +36,7 @@ function Box4() {
             </div>
             <div>
                 <Box4b name1= "Prof. Lokendra Kumar," position1="Professor"></Box4b>
-                <Box4b name1= "Dr.  Lakhveer Kaur," position1="Assistant Professor"></Box4b>
+                <Box4b name1= "Dr.  Lakhveer Kaur," position1="Associate Professor"></Box4b>
                 <Box4b name1= "Dr. Neha Ahlawat," position1="Assistant Professor"></Box4b>
                 <Box4b name1= "Dr. Mohd. Sarfaraz," position1="Assistant Professor"></Box4b>
                 <Box4b name1= "Dr. Shikha Pandey," position1="Assistant Professor"></Box4b>

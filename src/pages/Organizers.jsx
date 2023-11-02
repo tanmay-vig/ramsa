@@ -9,7 +9,7 @@ function Organizers() {
   return (
     <div className='mainstyle'>
       <br />
-      <h2 style={{fontSize: "52px", color:"blue", textDecorationLine: 'Underline', fontFamily: "fantasy"}}>ORGANIZERS</h2>
+      <h2 style={{fontSize: "52px", color:"blue"}}>ORGANIZERS</h2>
       <div className='style'>
         <Box1 post = "CHIEF PATRONS" name1= "Shri Jaiprakash Gaur Ji," position1 = "Founder Chancellor, JIIT" name2 = "Shri Manoj Gaur Ji," position2 = "Executive Chairman, Jaypee Group"/>
         <Box1 post = "PATRONS" name1= "Prof. S. C. Saxena," position1 = "Pro Chancellor, JIIT" name2 = "Prof. B. R. Mehta," position2 = "Vice Chancellor, JIIT"/>

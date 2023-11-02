@@ -7,9 +7,10 @@ function Part2(props) {
   return (
     <div style={style}>
         <h2 style={{color: "red"}}>{props.name}</h2>
-        <h3>{props.content1}</h3>
-        <h3><a href={props.link}>{props.title}</a></h3>
-        <h3>{props.content2}</h3>
+        <div><a href="./AbstractTemplate.doc" download="Abstract_Template">Abstract Template</a></div>
+        <div>{props.content1}</div>
+        <div><a href={props.link} target="_blank" rel="noopener noreferrer">{props.title}</a></div>
+        <div>{props.content2}</div>
     </div>
   )
 }

@@ -4,7 +4,7 @@ import "./css/about.css";
 export default function About() {
     return (
         <>
-            <h2 className="text-center my-3">About Us</h2>
+            <h2 className="text-center my-3 " style={{color:"blue"}}>About Us</h2>
             <div className="d-flex flex-column flex-lg-row justify-content-center p-5">
                 <div className="mx-2">
                     <div className="red-head text-center">
