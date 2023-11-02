@@ -25,7 +25,7 @@ function Organizers() {
           <Box3 post = "FINANCE CHAIR" name1= "Dr. Anuj Bhardwaj" position1 = "Associate Professor"/>
           <Box3 post = "PUBLICITY & BROADCAST CHAIR" name1= "Dr. Amita Bhagat" position1 = "Associate Professor"/>
         </div>
-        <div>
+        <div style={{marginLeft:"50px"}}>
           <Box3 post = "PUBLICATION CHAIR" name1= "Dr. Yogesh Gupta" position1 = "Associate Professor"/>
           <Box3 post = "HOSPITALITY CHAIR" name1= "Dr.  Himanshu Agarwal" position1 = "Associate Professor"/>
           <Box3 post = "REGISTRATION CHAIR" name1= "Dr. Richa Sharma" position1 = "Associate Professor"/>

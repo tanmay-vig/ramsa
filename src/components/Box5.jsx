@@ -7,7 +7,7 @@ function Box5() {
   return (
     <div>
         <Box4a name = "CONFERENCE ADVISORY COMMITTEE"></Box4a>
-        <div>
+        <div style={{textAlign: "center"}}>
             <Box4b name1= "Prof. Vikas Saxena," position1="Director, JIIT"></Box4b>
             <Box4b name1= "Prof. Pammi Gauba," position1="Dean (A&R-1), JIIT"></Box4b>
             <Box4b name1= "Prof. Shweta Srivastava," position1="Dean (A&R-2), JIIT"></Box4b>

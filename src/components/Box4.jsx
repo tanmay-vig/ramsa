@@ -34,7 +34,7 @@ function Box4() {
                 <Box4b name1= "Dr. Mukesh Kumar Nagar," position1="Assistant Professor"></Box4b>
                 <Box4b name1= "Dr. Shashank Goel," position1="Assistant Professor"></Box4b>
             </div>
-            <div>
+            <div style={{marginLeft:"30px"}}>
                 <Box4b name1= "Prof. Lokendra Kumar," position1="Professor"></Box4b>
                 <Box4b name1= "Dr.  Lakhveer Kaur," position1="Associate Professor"></Box4b>
                 <Box4b name1= "Dr. Neha Ahlawat," position1="Assistant Professor"></Box4b>
