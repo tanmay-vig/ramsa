@@ -13,7 +13,7 @@ function CallForPapers() {
           </a>
         </section>
         {/* <Part2 name = "Important Dates:" link = "https://sites.google.com/view/ramsa-24-important-dates/home" title= "Important Dates"/> */}
-        <Part2 name = "Abstract submission:" content1 = "Please prepare your abstract in accordance with the provided template." link = "https://docs.google.com/forms/d/e/1FAIpQLSc60hSpo_rOoNJqeWH4v88LutV55ELbbNtpfylQmVPDGbweVg/viewform?usp=sf_link" title = "Link for Submission of abstract" content2 = "After acceptance, the abstract author has to register for the conference. Acceptance of abstracts and further details and procedure will be communicated via email."/>
+        <Part2 name = "Abstract submission:" content1 = "Kindly prepare your abstract using the provided template and then submit it by uploading it through the designated submission link." link = "https://docs.google.com/forms/d/e/1FAIpQLSc60hSpo_rOoNJqeWH4v88LutV55ELbbNtpfylQmVPDGbweVg/viewform?usp=sf_link" title = "Link for Submission of abstract" content2 = "After acceptance, the abstract author has to register for the conference. Acceptance of abstracts and further details and procedure will be communicated via email."/>
         <Part3 />
     </div>
   )

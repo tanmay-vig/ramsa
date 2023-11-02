@@ -45,7 +45,7 @@ export default function Home() {
             </div>
             {/* Slider section */}
             <div className="d-none d-lg-block">
-                <ImageSliderAuto ImageData={ImageData} SlideInterValTime={3000} />
+                <ImageSliderAuto ImageData={ImageData} SlideInterValTime={1500} />
             </div>
         </>
     );

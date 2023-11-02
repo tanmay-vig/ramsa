@@ -1,6 +1,7 @@
 // import "./css/style.css";
 import { Link } from "react-router-dom";
 import "./css/about.css";
+import Img1 from './JIIT.jpg'
 export default function About() {
     return (
         <>
@@ -11,6 +12,10 @@ export default function About() {
                         About the host Institution and Department{" "}
                     </div>
                     <hr />
+                     <br />
+                     <div className="text-center">
+                     <img src={Img1} alt="image" style={{height:"60%", width:"90%"}}/>
+                     </div>
                      <br />
                     <div className="d">
                         The Jaypee Institute of Information Technology (JIIT), a
@@ -42,7 +47,7 @@ export default function About() {
                         innovation. We cordially welcome you to this platform
                         for the exchange of cutting-edge research and ideas,
                         hoping it will be a memorable and fruitful experience
-                        for all participants
+                        for all participants.
                     </div>
                 </div>
             </div>
