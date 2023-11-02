@@ -38,19 +38,46 @@ function Box4() {
                 <Box4b name1= "Prof. Lokendra Kumar," position1="Professor"></Box4b>
 {/*                 <Box4b name1= "Dr.  Lakhveer Kaur," position1="Associate Professor"></Box4b>
                 <Box4b name1= "Dr. Neha Ahlawat," position1="Assistant Professor"></Box4b>
+                
                 <Box4b name1= "Dr. Mohd. Sarfaraz," position1="Assistant Professor"></Box4b>
+                
                 <Box4b name1= "Dr. Shikha Pandey," position1="Assistant Professor"></Box4b>
                 <Box4b name1= "Dr. Nisha Shukla," position1="Assistant Professor"></Box4b>
                 <Box4b name1= "Dr. Aradhana Narang," position1="Assistant Professor"></Box4b>
                 <Box4b name1= "Dr. Ayushi Singh Sengar," position1="Assistant Professor"></Box4b>
                 <Box4b name1= "Dr. Shashankaditya Upadhyay," position1="Assistant Professor"></Box4b> */}
-            </div>
+            </div> <br />
 <div style={{marginRight:"100px"}}>
     <Box4b name1= "Prof. Amit Srivastava," position1="Professor"></Box4b>
     </div>
              <div>
                   <Box4b name1= "Dr.  Lakhveer Kaur," position1="Associate Professor"></Box4b>
-                 </div>
+                 </div> <br />
+            <div style={{marginRight:"100px"}}>
+                <Box4b name1= "Dr. Kamlesh Kumar Shukla," position1="Assistant Professor"></Box4b>
+                </div>
+            <div><Box4b name1= "Dr. Neha Ahlawat," position1="Assistant Professor"></Box4b></div>
+        </div> <br />
+        <div style={{marginRight:"100px"}}>
+            <Box4b name1= "Dr.  Neha Singhal," position1="Assistant Professor"></Box4b>
+                </div>
+            <div><Box4b name1= "Dr. Mohd. Sarfaraz," position1="Assistant Professor"></Box4b></div>
+        </div> <br />
+      <div style={{marginRight:"100px"}}>
+                </div>
+            <div></div>
+        </div>
+      <div style={{marginRight:"100px"}}>
+                </div>
+            <div></div>
+        </div>
+      <div style={{marginRight:"100px"}}>
+                </div>
+            <div></div>
+        </div>
+      <div style={{marginRight:"100px"}}>
+                </div>
+            <div></div>
         </div>
     </div>
   )
