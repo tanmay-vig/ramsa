@@ -13,7 +13,7 @@ function Part3() {
         <div>All submissions to RAMSA 2024 will undergo plagiarism checks using anti-plagiarism software. Authors are expected to uphold the highest standards of publication ethics. Any form of unethical behaviour, such as data falsification, fabrication, plagiarism (including self-plagiarism without proper citation), or misappropriation of work, is strictly prohibited.</div>
         <br />
         <h2 style={{color: "red"}}>Publication Opportunities: </h2>
-        <ul>
+        <ul style={{textAlign:"justify"}}>
             <div><li>Accepted and presented papers will undergo peer review and be considered for publication. </li></div>
             <div><li>The specific publication venues, including journals, books, or proceedings, are currently under consideration and will be communicated in due course.</li></div>
             <div><li>Acceptance for conference presentation does not guarantee paper publication. High-quality research papers will be considered for publication after the peer review process, following the publisher's or journal's policy. The final decision on acceptance/rejection of the manuscript will be on the basis of reviewer's and editor's recommendation.</li></div>
