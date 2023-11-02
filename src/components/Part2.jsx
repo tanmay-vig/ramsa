@@ -11,7 +11,7 @@ function Part2(props) {
         <br />
         <div>
         
-          <a href="./AbstractTemplate.doc" target="_blank" rel="noopener noreferrer" download="Abstract_Template">
+          <a href="./AbstractTemplate.docx" download="Abstract_Template">
               <button className="btn btn-success">Abstract Template</button>
           </a>
         
