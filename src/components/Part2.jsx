@@ -11,7 +11,8 @@ function Part2(props) {
         <br />
         <div>
         
-          <a href="./AbstractTemplate.docx" download="Abstract_Template">
+          <a href="./AbstractTemplate.docx" download="Abstract_Template"></a>
+          <a href="https://docs.google.com/document/d/13rl-i3ZyWtl8N5FfhLqX-jjdLozFuZjr/edit?usp=drive_link&ouid=108921589828685693583&rtpof=true&sd=true">
               <button className="btn btn-success">Abstract Template</button>
           </a>
         
